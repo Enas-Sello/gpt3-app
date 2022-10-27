@@ -1,0 +1,68 @@
+.blog h2 {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  width: 701px;
+  margin-bottom: 4rem;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom .left,
+.bottom .mid,
+.bottom .right {
+  width: 418.2px;
+  height: 696.16px;
+  margin-right: 1.5rem;
+}
+
+.bottom .card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  width: 327.34px;
+  height: 323.84px;
+  background: var(--color-blog);
+  overflow: hidden;
+  object-fit: contain;
+}
+.bottom .left {
+  width: 418.2px;
+  height: 696.16px;
+}
+
+.blog .card {
+  border-top-left-radius: 38px;
+}
+.blog .card img {
+  width: 327.34px;
+  height: 130.47px;
+}
+.blog .left img {
+  width: 417.03px;
+  height: 287.73px;
+}
+.blog .containt{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.blog .card span {
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+}
+.blog .card p {
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+}
+.blog .card a {
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+}

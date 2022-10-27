@@ -1,0 +1,16 @@
+.brand {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.brand a {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.brand img {
+  height: 24.15px;
+  width: 71.1px;
+}

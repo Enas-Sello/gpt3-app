@@ -1,0 +1,178 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  font-weight: 500;
+  height: 64px;
+}
+.logo {
+  margin-right: 2rem;
+}
+.logo img {
+  width: 62.56px;
+  height: 16.02px;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  margin: 0 1rem;
+  line-height: 25px;
+  transition: all 3s ease-in-out;
+}
+/* .menu ul li a {
+  width: 100%;
+} */
+.menu ul li a:hover,
+.account button:hover,
+.mobile-menu-container ul li a:hover {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.account button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 3s ease-in-out;
+}
+.account :nth-child(2) {
+  padding: 0.5rem 1rem;
+  background: #ff4820;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.account :nth-child(2):hover {
+  background: var(--gradient-bar);
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+/* mobile-menu */
+.mobile-menu {
+  display: none;
+  margin-left: 1rem;
+  position: relative;
+}
+.mobile-menu svg {
+  cursor: pointer;
+}
+.mobile-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 500;
+  background-color: var(--color-footer);
+  position: absolute;
+  top: 50px;
+  right: 0;
+  min-width: 210px;
+  border-radius: 8px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.mobile-link ul li {
+  margin: 1rem 0;
+}
+.mobli-account button {
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  background: #ff4820;
+  border-radius: 8px;
+  width: 100%;
+}
+.mobli-account :nth-child(1) {
+}
+/* screens */
+/* 
+
+@media screen and (max-width: 1050px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 700px) {
+    .nav-links {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+  .menu {display: none;}
+  .mobile-menu {
+        display: block;
+    }
+    .nav-links {
+        padding: 2rem;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .mobile-menu-container {
+        top: 20px;
+    }
+
+    .mobli-account {
+        display: block;
+    }
+  }
+  */
+@media (min-width: 681px) and (max-width:978px) {
+  .nav{
+  padding:0;
+  }
+  .menu li a{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 680px) {
+  
+  .nav {
+    padding: 1.5rem;
+    
+  }
+  .menu ul li {
+    margin: 5px;
+    padding: 1.5rem;
+
+  }
+  .menu,
+  .account {
+    display: none;
+  }
+  .mobile-menu,
+  .mobli-account {
+    display: block;
+  }
+}
+@media (min-width: 465px) and (max-width: 679px) {
+  .mobli-account{display: none;}
+  .account {
+    display: block;
+  }
+
+}
+@media screen and (max-width: 375px) {
+  .menu ul li {
+    margin: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .menu ul li {
+    margin: 5px;
+  }
+}

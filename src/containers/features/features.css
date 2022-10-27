@@ -1,0 +1,56 @@
+.feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+.feature .left {
+  flex: 1;
+}
+.feature .left h2 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  width: 426px;
+  margin-bottom: 1rem;
+}
+.feature .left a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+}
+.feature .right {
+  flex: 1;
+}
+.feature .right * {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.feature .right h4 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  position: relative;
+  padding-top:.5rem;
+  width: 200px;
+
+}
+.feature .right h4::before {
+  content: '';
+  position: absolute;
+  width: 38px;
+  height: 3px;
+  left: 0;
+  top: 0;
+  background: var(--gradient-bar);
+}
+.feature .right p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 334px;
+color: var(--color-text);
+margin-left: 1rem;
+}
